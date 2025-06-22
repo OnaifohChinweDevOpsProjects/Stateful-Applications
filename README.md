@@ -5,6 +5,7 @@ This script automates the setup of Nexus, Jenkins, SonarQube, and Docker on an U
 **📝 Steps Automated by the Script:**
 
 **1. Nexus Setup 🔧**
+
 Nexus is a repository manager that helps manage your software artifacts. The script automates its installation and configuration.
 
 Create Nexus User: Adds a user named nexus for secure access.
@@ -17,6 +18,7 @@ Service Configuration: Nexus is set up to run as a service using systemd.
 
 
 **2. Jenkins Setup 🤖**
+
 Jenkins is a popular open-source automation server for continuous integration and delivery.
 
 Add Jenkins Repository: Adds Jenkins’s repository and key to the system.
@@ -27,6 +29,7 @@ Service Configuration: Jenkins is set up to run as a service, ensuring it starts
 
 
 **3. SonarQube Setup 🔍**
+
 SonarQube is a platform for continuous inspection of code quality.
 
 Create SonarQube User: Adds a user named sonarqube.
@@ -37,6 +40,7 @@ Service Configuration: Configures SonarQube to run as a service.
 
 
 **4. Docker Installation 🐳**
+
 Docker allows you to containerize applications for better scalability and management.
 
 Install Docker: Adds Docker's official repository, installs Docker, and ensures the service is running.
