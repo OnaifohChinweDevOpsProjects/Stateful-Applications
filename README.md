@@ -41,6 +41,7 @@ Install Docker: Adds Docker's official repository, installs Docker, and ensures 
 Add Jenkins to Docker Group: Grants Jenkins user access to Docker, enabling it to manage containers.
 
 **🛠️ What this script does:**
+
 User Creation: Automatically creates required users for each application.
 
 Dependency Management: Installs necessary packages like OpenJDK, Docker, and others.
@@ -51,6 +52,7 @@ Automation: Fully automates the installation and setup process with minimal user
 
 
 **📦 Dependencies:**
+
 OpenJDK 17
 
 Docker
