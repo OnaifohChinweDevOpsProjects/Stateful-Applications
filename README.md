@@ -15,6 +15,7 @@ Download & Install Nexus: Downloads the latest version of Nexus, extracts it, an
 
 Service Configuration: Nexus is set up to run as a service using systemd.
 
+
 **2. Jenkins Setup 🤖**
 Jenkins is a popular open-source automation server for continuous integration and delivery.
 
@@ -23,6 +24,7 @@ Add Jenkins Repository: Adds Jenkins’s repository and key to the system.
 Install Jenkins: Installs the Jenkins package.
 
 Service Configuration: Jenkins is set up to run as a service, ensuring it starts with the system.
+
 
 **3. SonarQube Setup 🔍**
 SonarQube is a platform for continuous inspection of code quality.
@@ -33,12 +35,14 @@ Install SonarQube: Downloads and unzips the SonarQube distribution.
 
 Service Configuration: Configures SonarQube to run as a service.
 
+
 **4. Docker Installation 🐳**
 Docker allows you to containerize applications for better scalability and management.
 
 Install Docker: Adds Docker's official repository, installs Docker, and ensures the service is running.
 
 Add Jenkins to Docker Group: Grants Jenkins user access to Docker, enabling it to manage containers.
+
 
 **🛠️ What this script does:**
 
