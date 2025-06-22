@@ -1,7 +1,9 @@
 **🚀 Automation Setup for Nexus, Jenkins, SonarQube, and Docker 🛠️**
+
 This script automates the setup of Nexus, Jenkins, SonarQube, and Docker on an Ubuntu server. It creates users, installs dependencies, configures the software, and ensures services are up and running. The script also ensures these services are set up to run on system startup for persistence.
 
 **📝 Steps Automated by the Script:**
+
 **1. Nexus Setup 🔧**
 Nexus is a repository manager that helps manage your software artifacts. The script automates its installation and configuration.
 
